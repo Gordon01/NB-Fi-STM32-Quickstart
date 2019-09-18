@@ -1,4 +1,4 @@
-#include "ax5043.h"
+п»ї#include "ax5043.h"
 #include "axradio.h"
 #include "WVT_Radio.h"
 #include "wtimer.h"
@@ -123,13 +123,13 @@ void ax5043_on_off_pwr(uint8_t pwr)
 	//ax5043 asic external power on/off implementation might be here for hardware reset  
 	if(pwr)
 	{
-		// Есть ли утечка через этот пин? хммм, надо проверить
+		// Р•СЃС‚СЊ Р»Рё СѓС‚РµС‡РєР° С‡РµСЂРµР· СЌС‚РѕС‚ РїРёРЅ? С…РјРјРј, РЅР°РґРѕ РїСЂРѕРІРµСЂРёС‚СЊ
 		//HAL_GPIO_WritePin(WVT_AX_CS_PORT, WVT_AX_CS_PIN, GPIO_PIN_RESET);
 		HAL_GPIO_WritePin(WVT_AX_POW_PORT, WVT_AX_POW_PIN, GPIO_PIN_RESET);
 	}
 	else 
 	{
-		// Есть ли утечка через этот пин? хммм
+		// Р•СЃС‚СЊ Р»Рё СѓС‚РµС‡РєР° С‡РµСЂРµР· СЌС‚РѕС‚ РїРёРЅ? С…РјРјРј
 		//HAL_GPIO_WritePin(WVT_AX_CS_PORT, WVT_AX_CS_PIN, GPIO_PIN_SET);
 		HAL_GPIO_WritePin(WVT_AX_POW_PORT, WVT_AX_POW_PIN, GPIO_PIN_SET);
 	}
