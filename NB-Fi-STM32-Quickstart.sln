@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NB-Fi-STM32-Quickstart", "NB-Fi-STM32-Quickstart.vcxproj", "{D206AB28-988B-4B00-A5E9-AE033F7CE6FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D206AB28-988B-4B00-A5E9-AE033F7CE6FD}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{D206AB28-988B-4B00-A5E9-AE033F7CE6FD}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{D206AB28-988B-4B00-A5E9-AE033F7CE6FD}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{D206AB28-988B-4B00-A5E9-AE033F7CE6FD}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85A2A334-DE5C-4E67-9D45-4965BB1BA0C0}
+	EndGlobalSection
+EndGlobal

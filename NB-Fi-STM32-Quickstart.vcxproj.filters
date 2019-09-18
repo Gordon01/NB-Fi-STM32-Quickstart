@@ -1,0 +1,850 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{b49493b7-f486-48d9-8d42-3280708bf20f}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{2545247f-c204-402e-a0f6-d2128fa1ccc5}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{209839f1-bb14-43c3-853f-9330a3d7aa20}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{2d3eec3d-95ff-4a59-b834-a21d6f906170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\HAL">
+      <UniqueIdentifier>{22bc0445-7430-4dff-8704-8a15da2f6ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\LL">
+      <UniqueIdentifier>{147e9e46-3ee3-46cd-8768-6e9ebfae483b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{cfa5919f-c942-4e69-af2f-b5587390a198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\HAL">
+      <UniqueIdentifier>{c3813d49-fe35-4a04-ae35-a81c79422bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\LL">
+      <UniqueIdentifier>{474e5580-003c-4808-8f0b-fe5b8440bb6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{648e41b6-94c4-4b65-9a63-8fbad0664c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\NBFiLib">
+      <UniqueIdentifier>{15c191da-ae85-44be-bead-af6febe16481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\NBFiLib\axradio">
+      <UniqueIdentifier>{03bac5f3-272d-4c8f-bf6d-5c9f981585f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\NBFiLib\docs">
+      <UniqueIdentifier>{e72e1add-2ef4-4ceb-814f-bd4425a50216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\NBFiLib\libmf">
+      <UniqueIdentifier>{66388582-b695-49a6-91c8-26c1a2db5334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\NBFiLib\misc">
+      <UniqueIdentifier>{1a550ed3-60a7-47d9-8af2-454ddb27283f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\NBFiLib\nbfi">
+      <UniqueIdentifier>{0fc5fcb5-70aa-49e7-a204-9d2723f7f376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\NBFiLib">
+      <UniqueIdentifier>{fbbd3154-fc03-4a6e-b929-e9d49b3ecd9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\NBFiLib\axradio">
+      <UniqueIdentifier>{62c04898-471b-46c4-a6cf-421f6845dd4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\NBFiLib\docs">
+      <UniqueIdentifier>{1aeb512d-c017-42a1-ae7f-10159632f6b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\NBFiLib\libmf">
+      <UniqueIdentifier>{55186b09-8550-471f-8d8e-110f0c49687e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\NBFiLib\misc">
+      <UniqueIdentifier>{f94cb51e-5531-4cb0-916e-e531fa4c043c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\NBFiLib\nbfi">
+      <UniqueIdentifier>{643fa926-c2a8-420c-bb82-47476e440f7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NB-Fi-STM32-Quickstart.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="system_stm32l0xx.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <None Include="stm32.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\StartupFiles\startup_stm32l071xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_adc.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_adc_ex.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_comp.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_comp_ex.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_cortex.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_crc.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_crc_ex.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_cryp.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_cryp_ex.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_dac.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_dac_ex.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_dma.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_firewall.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash_ex.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash_ramfunc.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_gpio.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c_ex.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2s.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_irda.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_iwdg.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_lcd.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_lptim.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pcd.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pcd_ex.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pwr.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pwr_ex.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rcc.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rcc_ex.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rng.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rtc.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rtc_ex.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_smartcard.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_smartcard_ex.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_smbus.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_spi.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_tim.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_tim_ex.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_tsc.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_uart.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_uart_ex.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_usart.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_wwdg.c">
+      <Filter>Source files\Device-specific files\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_adc.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_comp.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_crc.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_crs.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_dac.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_dma.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_exti.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_gpio.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_i2c.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_lptim.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_lpuart.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_pwr.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_rcc.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_rng.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_rtc.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_spi.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_tim.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_usart.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_usb.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Src\stm32l0xx_ll_utils.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClInclude Include="stm32l0xx_hal_conf.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_comp.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_comp_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_crc.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_crc_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cryp.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cryp_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dac.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dac_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_firewall.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2s.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_irda.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_irda_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_iwdg.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_lcd.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_lptim.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_lptim_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pcd.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pcd_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rng.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_smartcard.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_smartcard_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_smbus.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tsc.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_wwdg.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Device\ST\STM32L0xx\Include\stm32l0xx.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Device\ST\STM32L0xx\Include\system_stm32l0xx.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\arm_common_tables.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\arm_const_structs.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\arm_math.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\cmsis_armcc.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\cmsis_armcc_V6.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\cmsis_gcc.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\core_cm0.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\core_cm0plus.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\core_cm3.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\core_cm4.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\core_cm7.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\core_cmFunc.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\core_cmInstr.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\core_cmSimd.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\core_sc000.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\Include\core_sc300.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\CMSIS_HAL\RTOS\Template\cmsis_os.h">
+      <Filter>Header files\Device-specific files\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_adc.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_bus.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_comp.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_cortex.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_crc.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_crs.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_dac.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_dma.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_exti.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_gpio.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_i2c.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_iwdg.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_lptim.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_lpuart.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_pwr.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_rcc.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_rng.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_rtc.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_spi.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_system.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_tim.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_usart.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_usb.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_utils.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32L0xxxx\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_wwdg.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <None Include="NB-Fi-STM32-Quickstart-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="NB-Fi-STM32-Quickstart-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\axradio\ax5043.c">
+      <Filter>Source files\NBFiLib\axradio</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\axradio\config_united.c">
+      <Filter>Source files\NBFiLib\axradio</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\axradio\easyax5043.c">
+      <Filter>Source files\NBFiLib\axradio</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\chksgnlim16.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\chksgnlim32.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc16.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc16b.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc16dnpmsbtable.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc16dnptable.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc16msb.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc16msbtable.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc16table.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc32.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc32b.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc32msb.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc32msbtable.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc32table.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc8.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc8b.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc8ccitt.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc8ccittmsbtable.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc8ccitttable.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc8msb.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc8onewire.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc8onewiremsbtable.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crc8onewiretable.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crcccittmsbtable.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\crcccitttable.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\fmemcpy.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\fmemset.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\graydec8.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\grayenc8.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\hweight16.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\hweight32.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\hweight8.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\pn15adv.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\pn15advtable.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\pn15out.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\pn15outtable.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\pn9.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\pn9bit.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\pn9bits.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\pn9buf.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\pn9byte.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\pn9table.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\rev8.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\sgnlim16.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\sgnlim32.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\signext12.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\signext16.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\signext20.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\signext24.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\wt0.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\wt01.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\libmf\wtimer.c">
+      <Filter>Source files\NBFiLib\libmf</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\misc\XTEA.c">
+      <Filter>Source files\NBFiLib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\misc\zcode.c">
+      <Filter>Source files\NBFiLib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\misc\zcode_e.c">
+      <Filter>Source files\NBFiLib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\nbfi\nbfi.c">
+      <Filter>Source files\NBFiLib\nbfi</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\nbfi\nbfi_config.c">
+      <Filter>Source files\NBFiLib\nbfi</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\nbfi\nbfi_misc.c">
+      <Filter>Source files\NBFiLib\nbfi</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\nbfi\nbfi_phy.c">
+      <Filter>Source files\NBFiLib\nbfi</Filter>
+    </ClCompile>
+    <ClCompile Include="NBFi_AX5043\NBFiLib\nbfi\rf.c">
+      <Filter>Source files\NBFiLib\nbfi</Filter>
+    </ClCompile>
+    <ClCompile Include="WVT_Init.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="WVT_Radio.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="WVT_SPI.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NBFi_AX5043\NBFiLib\docs\Makefile">
+      <Filter>Source files\NBFiLib\docs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="NBFi_AX5043\NBFiLib\docs\requirements.txt">
+      <Filter>Source files\NBFiLib\docs</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\axradio\ax5043.h">
+      <Filter>Header files\NBFiLib\axradio</Filter>
+    </ClInclude>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\axradio\axradio.h">
+      <Filter>Header files\NBFiLib\axradio</Filter>
+    </ClInclude>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\axradio\easyax5043.h">
+      <Filter>Header files\NBFiLib\axradio</Filter>
+    </ClInclude>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\libmf\libmfcrc.h">
+      <Filter>Header files\NBFiLib\libmf</Filter>
+    </ClInclude>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\libmf\libmftypes.h">
+      <Filter>Header files\NBFiLib\libmf</Filter>
+    </ClInclude>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\libmf\libmfwtimer.h">
+      <Filter>Header files\NBFiLib\libmf</Filter>
+    </ClInclude>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\libmf\wtimer.h">
+      <Filter>Header files\NBFiLib\libmf</Filter>
+    </ClInclude>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\misc\XTEA.h">
+      <Filter>Header files\NBFiLib\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\misc\zcode.h">
+      <Filter>Header files\NBFiLib\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\misc\zcode_e.h">
+      <Filter>Header files\NBFiLib\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\nbfi\nbfi.h">
+      <Filter>Header files\NBFiLib\nbfi</Filter>
+    </ClInclude>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\nbfi\nbfi_config.h">
+      <Filter>Header files\NBFiLib\nbfi</Filter>
+    </ClInclude>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\nbfi\nbfi_defines.h">
+      <Filter>Header files\NBFiLib\nbfi</Filter>
+    </ClInclude>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\nbfi\nbfi_misc.h">
+      <Filter>Header files\NBFiLib\nbfi</Filter>
+    </ClInclude>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\nbfi\nbfi_phy.h">
+      <Filter>Header files\NBFiLib\nbfi</Filter>
+    </ClInclude>
+    <ClInclude Include="NBFi_AX5043\NBFiLib\nbfi\rf.h">
+      <Filter>Header files\NBFiLib\nbfi</Filter>
+    </ClInclude>
+    <ClInclude Include="WVT_Config.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="WVT_Init.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="WVT_Radio.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="WVT_SPI.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
